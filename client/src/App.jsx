@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./routes/Home";
+import Home from "./Components/Home/Home";
 import Blogs from "./Components/Blogs/Blogs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
@@ -12,11 +12,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/Blogs" element={<Blogs />} />
-        <Route path="/React" element={<ReactArticle/>} />
-        <Route path="/Tailwind" element={<TailwindArticle/>} />
-        <Route path="/Express" element={<ExpressArticle/>} />
+        <Route path="/Blogs/React" element={<ReactArticle/>} />
+        <Route path="/Blogs/Tailwind" element={<TailwindArticle/>} />
+        <Route path="/Blogs/Express" element={<ExpressArticle/>} />
       </Routes>
       <Footer />
     </Router>

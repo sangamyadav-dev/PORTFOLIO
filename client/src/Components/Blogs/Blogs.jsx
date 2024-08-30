@@ -6,21 +6,21 @@ const blogs = [
     title: "Exploring React Performance Optimization",
     summary:
       "Tips and techniques for improving performance in React applications.",
-    link: "/React",
+    link: "/Blogs/React",
     image: "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/04/react-js-and-vite-js-logo-on-night-sky-background.jpg",
   },
   {
     title: "Mastering Tailwind CSS",
     summary:
       "A comprehensive guide to Tailwind CSS, a utility-first CSS framework that enables rapid UI development with a highly customizable and responsive design system.",
-    link: "/Tailwind",
+    link: "/Blogs/Tailwind",
     image: "https://media.licdn.com/dms/image/D4D12AQHw9SjCddUhjQ/article-cover_image-shrink_720_1280/0/1715021638881?e=2147483647&v=beta&t=VuDjk7oMCOy2lSJtXjHerIg7QURxNCkcWdzUmfuVlu4",
   },
   {
     title: "Getting Started with Express.js",
     summary:
       "An introduction to Express.js, a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
-    link: "/Express",
+    link: "/Blogs/Express",
     image: "https://media.licdn.com/dms/image/D4E12AQEBg943ptCYpg/article-cover_image-shrink_720_1280/0/1686391647921?e=2147483647&v=beta&t=sTfwUvcIfW7Fuby7hMluDfuRJK3HfYMMWc2SyZR7-GA",
   },
 ];
