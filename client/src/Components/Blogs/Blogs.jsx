@@ -27,7 +27,7 @@ const blogs = [
 
 const Blogs = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 cursor-pointer">
       <div className="bg-black max-w-3xl mx-auto text-center space-y-4 py-8 px-8 mb-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200">
           Insights from a Software Developer

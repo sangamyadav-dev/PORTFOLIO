@@ -29,7 +29,7 @@ function Main() {
   };
 
   return (
-    <main className="container mx-auto px-6 py-24">
+    <main className="container mx-auto px-6 py-24 cursor-pointer">
       <div>
         <h4
           className={`text-2xl sm:text-2xl font-semibold mb-4 tracking-wide ${
